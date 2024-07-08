@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity.ActivityStartScreen">
+
+
+    <Button
+        android:id="@+id/playbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="Play"
+        android:textColor="@color/textcolor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="Exit"
+        android:textColor="@color/textcolor"
+        android:textSize="20sp" />
+</LinearLayout>

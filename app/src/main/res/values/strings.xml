@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Word Cross</string>
+    <string name="Congratulations">Congratulations</string>
+    <string name="Score">SCORE: 0</string>
+</resources>
